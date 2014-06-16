@@ -1,0 +1,19 @@
+========== Command List ==========
+SCWS "SCRIPTS:PRJ_SCRIPTS" /DEFAULT /DIR="C:\work\dmsys\SCRIPTS_PRJ_SCRIPTS\" /NOCHECK
+EI "SCRIPTS:;" /WORKSET="SCRIPTS:PRJ_SCRIPTS" /FILENAME="test1.txt" /OVERWRITE /CHANGE_DOC_IDS="SCRIPTS_CR_1"
+EI "SCRIPTS:;" /WORKSET="SCRIPTS:PRJ_SCRIPTS" /FILENAME="Test\Test.txt" /OVERWRITE /CHANGE_DOC_IDS="SCRIPTS_CR_1"
+========== Command Execute ==========
+dmcli -param .\param\TBB.param -file C:\DOCUME~1\ycyu\LOCALS~1\Temp\rad3C498.tmp > C:\DOCUME~1\ycyu\LOCALS~1\Temp\rad5E9A8.tmp
+========== Operation Detail ==========
+Serena Dimensions CM 10.1.3 Build 012 at 16:36:28 ?P?e| 20 ?K??009
+Copyright (c) 1988-2008 Serena Software, Inc. All rights reserved.
+SCWS "SCRIPTS:PRJ_SCRIPTS" /DEFAULT /DIR="C:\work\dmsys\SCRIPTS_PRJ_SCRIPTS\" /NOCHECK
+Operation completed
+EI "SCRIPTS:;" /WORKSET="SCRIPTS:PRJ_SCRIPTS" /FILENAME="test1.txt" /OVERWRITE /CHANGE_DOC_IDS="SCRIPTS_CR_1"
+Checked out Item SCRIPTS:TEST1 TXT.A-DAT;3
+Operation completed
+EI "SCRIPTS:;" /WORKSET="SCRIPTS:PRJ_SCRIPTS" /FILENAME="Test\Test.txt" /OVERWRITE /CHANGE_DOC_IDS="SCRIPTS_CR_1"
+Warning: Previously gotten file had been removed
+Checked out Item SCRIPTS:TEST TXT.A-SRC;5
+Operation completed
+========== Finished ==========

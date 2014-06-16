@@ -1,0 +1,5 @@
+-user 
+-pass
+-host 10.16.21.132
+-dbname TBB
+-dsn DIM10
